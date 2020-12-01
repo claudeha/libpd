@@ -19,7 +19,7 @@ first install and activate the emscripten environment. then
     emcmake cmake .. -DPD_UTILS:BOOL=OFF -DCMAKE_BUILD_TYPE=Release
     emmake make
     cd ../samples/emscripten/pdtest
-    make
+    emmake make
 
 ## run
 
