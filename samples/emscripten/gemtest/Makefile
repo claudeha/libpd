@@ -1,5 +1,5 @@
 LIBPD_DIR = ../../../
-SRC_FILES = gemtest.c glu.c
+SRC_FILES = gemtest.c
 TARGET = gemtest.html
 
 CFLAGS = -I$(LIBPD_DIR)/pure-data/src -I$(LIBPD_DIR)/libpd_wrapper -O3
