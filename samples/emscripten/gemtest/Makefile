@@ -20,4 +20,5 @@ $(TARGET): $(SRC_FILES) test.pd Makefile Gem/
 	$(LDFLAGS)
 
 Gem/: $(GEM_DIR)/abstractions/
+	rm -rf Gem
 	cp -avi $(GEM_DIR)/abstractions/ Gem
